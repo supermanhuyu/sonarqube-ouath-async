@@ -128,7 +128,7 @@ func GetAllProjects() (projects []*gitlab.Project, err error) {
 	// Create GitLab client
 	client, err := gitlab.NewClient(flag.Configuration.GitlabToken, gitlab.WithBaseURL(flag.Configuration.GitlabAddr))
 	if err != nil {
-		log.Logger.Error("Failed to create GitLab client: %v\n", err)
+		log.Logger.Errorf("Failed to create GitLab client: %v\n", err)
 		return
 	}
 	projects, err = GetAllGitlabProjects(client)
