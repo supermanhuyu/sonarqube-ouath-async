@@ -1,0 +1,1 @@
+./sonarqube-ouath-async > nohup.out 2>&1 &

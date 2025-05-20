@@ -1,0 +1,5 @@
+.idea/
+config/Configuration.dev.yaml
+config/Configuration.prod.yaml
+nohup.out
+sonarqube-ouath-async

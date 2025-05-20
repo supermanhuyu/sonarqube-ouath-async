@@ -1,0 +1,5 @@
+GitlabAddr: "https://gitlab.example.com"
+GitlabToken: "your_gitlab_token"
+SonarAddr: "http://sonar.example.com:9000"
+SonarToken: "Bearer your_sonarqube_token"
+PostgreSQLDsn: "host=localhost port=5432 dbname=example_db user=example_user password=example_password TimeZone=Asia/Shanghai sslmode=disable"
